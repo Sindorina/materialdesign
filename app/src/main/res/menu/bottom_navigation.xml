@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/main_page"
+        android:icon="@mipmap/main_normal"
+        app:showAsAction="always"
+        android:enabled="true"
+        android:title="首页"/>
+    <item
+        android:id="@+id/message"
+        app:showAsAction="always"
+        android:enabled="true"
+        android:icon="@mipmap/message_normal"
+        android:title="消息"/>
+    <item
+        android:id="@+id/find"
+        app:showAsAction="always"
+        android:enabled="true"
+        android:icon="@mipmap/find_normal"
+        android:title="发现"/>
+    <item
+        android:id="@+id/my"
+        app:showAsAction="always"
+        android:enabled="true"
+        android:icon="@mipmap/my_normal"
+        android:title="我的"/>
+</menu>
