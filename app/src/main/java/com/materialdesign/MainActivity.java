@@ -20,6 +20,8 @@ import android.widget.FrameLayout;
 import android.widget.ImageButton;
 import android.widget.Toast;
 
+import com.materialdesign.javaTest.TestActivity10;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -99,6 +101,7 @@ public class MainActivity extends AppCompatActivity
 
         if (id == R.id.nav_camera) {
             // Handle the camera action
+            TestActivity10.start(this);
         } else if (id == R.id.nav_gallery) {
 
         } else if (id == R.id.nav_slideshow) {

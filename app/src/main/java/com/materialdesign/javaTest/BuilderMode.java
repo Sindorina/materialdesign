@@ -10,7 +10,7 @@ public class BuilderMode {
     private String title;
     private String page;
 
-    public BuilderMode(String name, int age, String title, String page) {
+    BuilderMode(String name, int age, String title, String page) {
         this.name = name;
         this.age = age;
         this.title = title;
@@ -38,7 +38,7 @@ public class BuilderMode {
         private int age;
         private String title;
         private String page;
-        public Builder() {
+        Builder() {
         }
         public Builder setName(String name){
             this.name = name;
